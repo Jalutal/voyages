@@ -1,11 +1,11 @@
 /* DESIGNATION DES FONTS */
 @font-face {
     font-family: "Roboto Regular";
-    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 @font-face {
     font-family: "Roboto Bold";
-    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Bold.ttf);
 }
 
 
@@ -35,7 +35,8 @@ header {
     display: flex;
     justify-content: center;
 }
-.container img {
+.container img {   
+    object-fit: cover; 
     width: 100%;
     height: 300px;
 }

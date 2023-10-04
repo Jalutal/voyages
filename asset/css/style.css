@@ -1,0 +1,126 @@
+/* DESIGNATION DES FONTS */
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+/* INITIALISATION DU BODY A 0 MARGE */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Regular";
+    margin: 0;
+}
+
+header {
+    background-color: #808080;
+    height: 2vh;
+    
+    text-align: right;
+    padding:20px;
+    color: rgb(255, 255, 255);
+}
+
+/* CREATION DE LA FLEXBOX */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container img {
+    width: 100%;
+    height: 300px;
+}
+
+.element {
+    width: 18.5%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px black;
+    margin-top: 50px;
+    margin-right: 50px;
+    }
+
+/* ALIGNEMENT DU TEXTE */
+div h2 {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+div p {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+/* OPTIMISATION DES BOUTONS */
+.bouton {
+    padding: 10px 5px;    
+    margin-top: 20px;
+    width: 10rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    color: white;
+    transition: all 0.5s ease-out ;
+    border: 1px solid transparent;
+}
+
+.btn1 {
+    background-color: #6C3483;
+}
+
+.btn1:hover {
+    background-color: #ffffff;
+    color: #6C3483;
+    cursor: pointer;
+    border: 1px solid #6C3483;
+}
+
+.btn2 {
+    background-color: #CB4335;
+}
+
+.btn2:hover {
+    background-color: #ffffff;
+    color: #CB4335;
+    cursor: pointer;
+    border: 1px solid #CB4335;
+}
+
+.btn3
+{
+    background-color: #2874A6;
+}
+
+.btn3:hover {
+    background-color: #ffffff;
+    color: #2874A6;
+    cursor: pointer;
+    border: 1px solid #2874A6;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    transition: all 0.5s ease-out ;
+}
+
+header .last {
+    margin-right: 380px;
+}
+
+header a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #808080;
+    cursor: pointer;
+}
